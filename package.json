@@ -58,7 +58,7 @@
   "scripts": {
     "examples": "node examples/simple",
     "examples-extended": "node examples/extended",
-    "test": "node tests/index"
+    "test": "node tests/index; node .github/setup.js"
   },
   "repository": {
     "type": "git",
