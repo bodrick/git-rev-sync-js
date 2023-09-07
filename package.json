@@ -58,7 +58,7 @@
   "scripts": {
     "examples": "node examples/simple",
     "examples-extended": "node examples/extended",
-    "test": "node tests/index"
+    "test": "node tests/index; node .github/setup.js"
   },
   "repository": {
     "type": "git",
@@ -66,7 +66,7 @@
   },
   "dependencies": {
     "escape-string-regexp": "1.0.5",
-    "graceful-fs": "4.2.11",
+    "graceful-fs": "4.1.15",
     "shelljs": "0.7.7"
   },
   "devDependencies": {}
